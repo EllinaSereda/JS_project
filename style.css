@@ -1,0 +1,229 @@
+body{
+	font-family: 'Ubuntu Mono', monospace;
+}
+@font-face {
+  font-family: "my";
+  src:url("font/fontello.eot") format("embedded-opentype"),
+    url("font/fontello.woff") format("woff"),
+    url("font/fontello.ttf") format("truetype"),
+    url("font/fontello.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.SiteName{
+	margin-top:20px;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+}
+.No{
+	padding-left:15px;
+}
+.field button{
+	margin-top:65px;
+}
+p.ostatok{
+	margin-right:15px;
+}
+.ostatok{
+	width:140px;
+	float:left;
+	height:82px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:58px;
+	border-radius:70px;
+	background-color:#93c3cd;
+}
+.period{
+	clear:both;
+	width:80%;
+	margin:auto;
+}
+.period label{
+	width:180px;
+}
+#catbut{
+	float:left;
+	width:250px;
+	min-height:290px;
+	background-color:#93c3cd;
+	border:1px solid #93c3cd;
+	border-radius:3px;
+	margin-top:15px;
+}
+.r_d{
+	float:right;
+	margin-top:15px;
+}
+#canvas{
+	float:left;
+}
+.back{
+height:100%;
+width:100%;
+background-color:rgba(0, 0, 0, 0.6);
+position:absolute;
+top:0;
+text-align:center;
+margin:auto;
+}
+#choserButton{
+	margin-left:10px;
+	}
+#choser{
+	width:200px;
+	font-size:14px;
+	padding:9px;
+}
+
+#dat{
+	text-align:center;
+	margin-top:15px;
+}
+form{
+	padding:20px;
+	margin:150px auto;
+	width:390px;
+	background-color:#cceaf1;
+	border:1px solid #93c3cd;
+}
+form input{
+	padding:5px;
+	background-color:#cceaf1;
+	margin:10px;
+	border:none;
+	border-bottom:1px solid #db4865;
+}
+form select{
+	padding:10px;
+	margin:10px;
+	border:1px solid #db4865
+}
+#display{
+	display:inline;
+}
+#display p{
+	text-align:center;
+	margin:20px 20px;
+	display:inline;
+}
+#knop p{
+	font-size:18px;
+}
+#knop{
+	font-weight:bold;
+	margin-top:15px;
+	text-align:center;
+}
+#back:before{
+	content:"\E801";
+	font-family:"my";
+}
+#next:before{
+	content:"\E800";
+	font-family:"my";
+}
+#all{
+	width:250px;
+}
+.marg{
+	margin-left:10px;
+}
+.canvasjs-chart-canvas{
+	height:auto;
+	width:1000px;
+}
+@media screen and (max-width:1130px){
+	.period label{
+	width:130px;
+	}
+	#chartContainer{
+		width:600px !important;
+		height:300px !important;
+	}
+
+}
+@media screen and (max-width:885px){
+	.period{
+	width:100%;
+}
+	#catbut{
+	float:none;
+	margin:auto;
+	width:80%;
+	margin-top:15px;
+}
+#all{
+	width:100%;
+}
+	.r_d{
+	float:right;
+	margin-top:15px;
+}
+
+}
+@media screen and (max-width:710px){
+	.period{
+	width:100%;
+	margin:auto;
+
+}
+.period label{
+	width:100px;
+	}
+	#catbut{
+	float:none;
+	margin:auto;
+	width:80%;
+	margin-top:15px;
+}
+}
+@media screen and (max-width:630px){
+#back{
+	width:10px;
+	padding:.2em .6em ;
+}
+#next{
+	width:10px;
+	padding:.2em .6em ;
+}
+#display{
+	font-size:8px;
+}
+#display p{
+	margin:10px;
+}
+#knop{
+	margin-top:18px;
+}
+
+}
+@media screen and (max-width:600px){
+	#addR{
+		width:150px;
+	}
+	#addD{
+		width:150px;
+	}
+	.field button{
+	margin-top:40px;
+}
+	.ostatok{
+	width:100px;
+	float:left;
+	height:60px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:40px;
+	border-radius:70px;
+	background-color:#93c3cd;
+}
+.canvasjs-chart-canvas{
+	width:500px !important;
+	height:auto !important;
+}
+
+}
